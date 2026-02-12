@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Style/Calculadora.css">
     <title>Document</title>
 </head>
-<body>
-    <h1> Calculadora</h1>
 
-    <input type="number" id="Numero_A"><br>
-    <input type="number" id="Numero_b"><br>
-    <button id="Resultado" onclick="Evento()">Calcular</button>
-    <p>
-        Resultado:
-        <span id="Mostrar"></span>
-    </p>
+<body>
+    <div class="padre">
+        <h1> Calculadora</h1>
+        <input type="number" id="Numero_A"><br>
+        <input type="number" id="Numero_b"><br>
+        <button id="Resultado" onclick="Resta()">-</button>
+        <button id="Resultado" onclick="Sumar()">+</button>
+        <button id="Resultado" onclick="Multiplicar()">X</button>
+        <button id="Resultado" onclick="Dividir()">/</button>
+        <p>
+            Resultado:
+            <span id="Mostrar"></span>
+        </p>
+    </div>
+    
+
+
 </body>
 <script src="/Logic/Calculadora.js"></script>
+
 </html>
