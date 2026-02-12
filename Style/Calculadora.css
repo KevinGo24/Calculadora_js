@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: khaki;
+    background-size: cover;
+    justify-content: space-between;
+    text-align: center;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button{
+     border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20%;
+}
