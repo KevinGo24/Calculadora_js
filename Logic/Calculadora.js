@@ -6,7 +6,7 @@ function Resta() {
     let b = parseFloat(Numero_2.value)
     resultado.innerText = a - b
 }
-function Suma() {
+function Sumar() {
     let a = parseFloat(Numero_1.value)
     let b = parseFloat(Numero_2.value)
     resultado.innerText = a + b
@@ -20,4 +20,12 @@ function Dividir() {
     let a = parseFloat(Numero_1.value)
     let b = parseFloat(Numero_2.value)
     resultado.innerText = a / b
+}
+function borrar() {
+    // Limpiamos los inputs
+    document.getElementById('Numero_A').value = "";
+    document.getElementById('Numero_b').value = "";
+    
+    // Limpiamos el texto del resultado
+    document.getElementById('resultado').innerText = "";
 }
